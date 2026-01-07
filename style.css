@@ -94,6 +94,20 @@ main h2 {
     background-image: linear-gradient(135deg, #53599A, #6D9DC5);
 }
 
+div.video{
+    background-color: var(--cor-3)
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50
+    %;
+    position: relative
+}
+
+div.video > iframe {
+    height: 500px;
+    width: 100%;
+}
+
 img.bugdroid {
     width: 200px;
     display: block;
